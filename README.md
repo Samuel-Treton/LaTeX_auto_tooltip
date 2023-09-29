@@ -66,15 +66,16 @@ Compile your LaTeX file as usual. The commands affected by `mytooltip.sty` are `
 
 Examples in images:
 
-- The following code:
+- For `\eqref`:
   ```latex
   \begin{equation}\label{EqFacile}
   1+1=2
   \end{equation}
   The ref \eqref{EqFacile}.
   ```
-  gives
-  
-  &nbsp;
-  
   ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/eqref_demo.png)
+- For `\cite`:
+  ```latex
+  A new citation \cite{AlfaroFieldroad23}.
+  ```
+  ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/cite_demo.png)
