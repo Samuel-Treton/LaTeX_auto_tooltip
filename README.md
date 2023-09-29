@@ -40,8 +40,16 @@ Create your LaTeX file as usual.
   ```latex
   \addbibresource{YOUR_BIB_FILE_NAME.bib}
   ```
-  in preambule, and
+  in the preambule, and
   ```latex
   \printbibliography
   ```
   where you want the bibliography to be printed.
+
+### Step 2: Run main.py
+
+Before compiling your LaTeX file, `run main.py`. This script scans all `.tex` files in the current directory to retrieve equations and the first `.bib` file found in the directory. It then extracts the content of the equations and citations and stores them in `equations.txt` and `citations.txt`, respectively.
+
+```batch
+python main.py
+```
