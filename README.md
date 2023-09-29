@@ -30,4 +30,4 @@ Create your LaTeX file as usual.
     E = mc^2
   \end{equation}
   ```
-Note that \begin{equation}\label{XXX} must be on the same line.
+	Note that \begin{equation}\label{XXX} must be on the same line.
