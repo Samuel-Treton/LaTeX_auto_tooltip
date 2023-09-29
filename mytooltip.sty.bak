@@ -1,5 +1,17 @@
 % Attention : les labels ne doivent pas contenir de "_", ni '-', ni '.' sinon ils sont illisibles par catchfilebetweentags... On peut faire les séparations dans les labels avec la casse (eg. Sec2MainResults)
 
+\RequirePackage{ifthen} % Pour les IF/THEN/ELSE
+\newboolean{EquationPopUp}
+\newboolean{CitationPopUp}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%BOOL SETTINGS
+	\setboolean{EquationPopUp}{true}   % On Adobe Reader, popup equations when mouse is over references
+%	\setboolean{EquationPopUp}{false}  % Cancel that effect
+
+	\setboolean{CitationPopUp}{true}   % On Adobe Reader, popup citations when mouse is over references
+%	\setboolean{CitationPopUp}{false}  % Cancel that effect
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \RequirePackage{pdfcomment} % Pour les commentaires
 \RequirePackage{xparse,ocgbase}
 \RequirePackage{calc}
