@@ -1,0 +1,8 @@
+%<*EqFacile>
+1+1=2
+%</EqFacile>
+
+%<*MaSuperIntegrale>
+\int_{0}^{\pi}f(\omega)d\omega
+%</MaSuperIntegrale>
+

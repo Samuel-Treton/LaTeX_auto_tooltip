@@ -1,0 +1,119 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{AlfaroFujita17}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Alfaro},
+         familyi={A\bibinitperiod},
+         given={Matthieu},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Non born\'e,Non local,Scalaire}
+    \strng{namehash}{AM1}
+    \strng{fullhash}{AM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    Fujita avec une diffusion non-locale.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.anihpc.2016.10.005
+    \endverb
+    \field{issn}{0294-1449}
+    \field{number}{5}
+    \field{pages}{1309\bibrangedash 1327}
+    \field{shorttitle}{Fujita Blow up Phenomena and Hair Trigger Effect}
+    \field{title}{Fujita Blow up Phenomena and Hair Trigger Effect: {{The}}
+  Role of Dispersal Tails}
+    \field{volume}{34}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\Samuel\\Zotero\\storage\\2B3DMCEK\\Alfaro - 2017 - Fujita
+    \verb  blow up phenomena and hair trigger effect .pdf
+    \endverb
+    \field{journaltitle}{Annales de l'Institut Henri Poincar\'e C, Analyse non
+  lin\'eaire}
+    \field{month}{09}
+    \field{year}{2017}
+  \endentry
+
+  \entry{AlfaroFieldroad23}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AM}{%
+         family={Alfaro},
+         familyi={A\bibinitperiod},
+         given={Matthieu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Ducasse},
+         familyi={D\bibinitperiod},
+         given={Romain},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tr{\'e}ton},
+         familyi={T\bibinitperiod},
+         given={Samuel},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Decay rate,Diffusion,Exchange boundary conditions,Field-road
+  model,Fundamental solution}
+    \strng{namehash}{AMDRTS1}
+    \strng{fullhash}{AMDRTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    We consider the linear field-road system, a model for fast diffusion
+  channels in population dynamics and ecology. This system takes the form of a
+  system of PDEs set on domains of different dimensions, with exchange boundary
+  conditions. Despite the intricate geometry of the problem, we provide an
+  explicit expression for its fundamental solution and for the solution to the
+  associated Cauchy problem. The main tool is a Fourier (on the road
+  variable)/Laplace (on time) transform. In addition, we derive estimates for
+  the decay rate of the L{$\infty$} norm of these solutions.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jde.2023.05.002
+    \endverb
+    \field{issn}{0022-0396}
+    \field{pages}{332\bibrangedash 365}
+    \field{shorttitle}{The Field-Road Diffusion Model}
+    \field{title}{The Field-Road Diffusion Model: {{Fundamental}} Solution and
+  Asymptotic Behavior}
+    \field{volume}{367}
+    \field{langid}{english}
+    \verb{file}
+    \verb C\:\\Users\\Samuel\\Zotero\\storage\\WR9D9NNG\\Alfaro et al. - 2023 -
+    \verb  The field-road diffusion model Fundamental soluti.pdf;C\:\\Users\\Sa
+    \verb muel\\Zotero\\storage\\WBIQ2JPI\\S0022039623003303.html
+    \endverb
+    \field{journaltitle}{Journal of Differential Equations}
+    \field{month}{09}
+    \field{year}{2023}
+  \endentry
+\enddatalist
+\endinput

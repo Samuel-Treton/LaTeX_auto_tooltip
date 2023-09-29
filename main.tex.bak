@@ -1,0 +1,55 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{ifthen} % Pour les IF/THEN/ELSE
+\newboolean{EquationPopUp}
+\newboolean{CitationPopUp}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%BOOL SETTINGS
+	\setboolean{EquationPopUp}{true}   % On Adobe Reader, popup equations when mouse is over references
+%	\setboolean{EquationPopUp}{false}  % Cancel that effect
+
+	\setboolean{CitationPopUp}{true}   % On Adobe Reader, popup citations when mouse is over references
+%	\setboolean{CitationPopUp}{false}  % Cancel that effect
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+
+\usepackage{lmodern} %Empèche la pixellisation du texte
+
+\usepackage[hidelinks]{hyperref} % Pour cacher tous les liens d'équations, ref, site web, etc.
+
+\usepackage{biblio}
+\addbibresource{biblio.bib}
+\usepackage{mytooltip} % Pour les tooltips! (popup dans Adobe)
+
+\begin{document}
+
+\section{Section 1}\label{S1_intro}
+
+\begin{equation}\label{EqFacile}
+1+1=2
+\end{equation}
+The ref \eqref{EqFacile}.
+
+\bigskip
+
+\begin{equation}\label{MaSuperIntegrale}
+\int_{0}^{\pi}f(\omega)d\omega
+\end{equation}
+The ref \eqref{MaSuperIntegrale}.
+
+\bigskip
+
+A new citation \cite{AlfaroFieldroad23}.
+
+\bigskip
+
+Another one \cite{AlfaroFujita17}
+
+% Bibliographie
+\printbibliography
+
+\end{document}
