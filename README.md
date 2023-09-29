@@ -58,7 +58,7 @@ python main.py
 #### Important Notes:
 
 - Re-run `main.py` each time you want to refresh `equations.txt` and `citations.txt`.
-- The `main.py` file is easily editable to target a specific `.tex` or `.bib` file (see....).
+- The `main.py` file is easily editable to target a specific `.tex` or `.bib` file (see [Customization](#customization))..
 
 ### Step 3: Compile Your LaTeX File
 
@@ -68,10 +68,10 @@ Examples in images:
 
 - For `\eqref`:
   ```latex
-  \begin{equation}\label{EqFacile}
+  \begin{equation}\label{EqEasy}
   1+1=2
   \end{equation}
-  The ref \eqref{EqFacile}.
+  The ref \eqref{EqEasy}.
   ```
   ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/eqref_demo.png)
 - For `\cite`:
@@ -79,3 +79,26 @@ Examples in images:
   A new citation \cite{AlfaroFieldroad23}.
   ```
   ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/cite_demo.png)
+
+## Customization
+
+You can disable the pop-up effects using two booleans introduced in `mytooltip.sty`:
+```latex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%BOOL SETTINGS
+	\setboolean{EquationPopUp}{true}   % On Adobe Reader, popup equations when mouse is over references
+%	\setboolean{EquationPopUp}{false}  % Cancel that effect
+	\setboolean{CitationPopUp}{true}   % On Adobe Reader, popup citations when mouse is over references
+%	\setboolean{CitationPopUp}{false}  % Cancel that effect
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+To modify the target files of `main.py`, you can adjust the following lines in the script:
+```python
+# Non-automatic file exploration:
+# tex_files = ["main.tex"]
+# bib_file = "biblio.bib"
+```
+
+## License
+
+This project is licensed under the MIT License.
