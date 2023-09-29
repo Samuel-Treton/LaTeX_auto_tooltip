@@ -13,7 +13,8 @@
 
 ## Prerequisites
 
-Make sure you have Python installed on your computer. If not, you can download it from [Python's official website](https://www.python.org/downloads/).
+- Make sure you have Python installed on your computer. If not, you can download it from [Python's official website](https://www.python.org/downloads/).
+- Ensure that your MiKTeX distribution is up-to-date. You can update it through the MiKTeX Console.
 
 ## How It Works
 
@@ -58,3 +59,19 @@ python main.py
 
 - Re-run `main.py` each time you want to refresh `equations.txt` and `citations.txt`.
 - The `main.py` file is easily editable to target a specific `.tex` or `.bib` file (see....).
+
+### Step 3: Compile Your LaTeX File
+
+Compile your LaTeX file as usual. The commands affected by `mytooltip.sty` are `\eqref` and `\cite`.
+
+Examples in images:
+
+- The following code:
+  ```latex
+  \begin{equation}\label{EqFacile}
+  1+1=2
+  \end{equation}
+  The ref \eqref{EqFacile}.
+  ```
+  gives
+  ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/auto_tooltip_demo.gif)
