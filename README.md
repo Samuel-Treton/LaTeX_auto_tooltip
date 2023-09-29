@@ -48,8 +48,13 @@ Create your LaTeX file as usual.
 
 ### Step 2: Run main.py
 
-Before compiling your LaTeX file, `run main.py`. This script scans all `.tex` files in the current directory to retrieve equations and the first `.bib` file found in the directory. It then extracts the content of the equations and citations and stores them in `equations.txt` and `citations.txt`, respectively.
+Before compiling your LaTeX file, run `main.py`. This script scans all `.tex` files in the current directory to retrieve equations and the first `.bib` file found in the directory. It then extracts the content of the equations and citations and stores them in `equations.txt` and `citations.txt`, respectively.
 
 ```batch
 python main.py
 ```
+
+#### Important Notes:
+
+- Re-run `main.py` each time you want to refresh `equations.txt` and `citations.txt`.
+- The `main.py` file is easily editable to target a specific `.tex` or `.bib` file (see....).
