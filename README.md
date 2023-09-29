@@ -4,7 +4,7 @@
 
 `LaTeX_auto_tooltip` is a project that allows equations and citation references to appear as pop-ups in Adobe Reader. When the reader hovers over an equation or citation reference in a PDF generated from LaTeX, a contextual pop-up window displays additional information.
 
-![Equation Popup Screenshot](link_to_image)
+![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/auto_tooltip_demo.gif)
 
 ## Features
 
