@@ -11,6 +11,10 @@
 - Pop-up display for LaTeX equations
 - Pop-up display for citation references
 
+## Prerequisites
+
+Make sure you have Python installed on your computer. If not, you can download it from [Python's official website](https://www.python.org/downloads/).
+
 ## How It Works
 
 ### Step 1: Prepare Your LaTeX File
@@ -22,6 +26,8 @@ Create your LaTeX file as usual.
 - Avoid special characters in labels, such as `.`, `-`, and `_`. Instead, use case sensitivity to distinguish your labels, for example, `MySuperFirstEquation`.
 - The formatting of equations should be as follows:
   ```latex
-  \begin{equation}\label{XXX}
+  \begin{equation}\label{MySuperFirstEquation}
     E = mc^2
   \end{equation}
+  ```
+Note that \begin{equation}\label{XXX} must be on the same line.
