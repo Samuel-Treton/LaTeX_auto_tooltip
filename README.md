@@ -30,4 +30,18 @@ Create your LaTeX file as usual.
     E = mc^2
   \end{equation}
   ```
-	Note that \begin{equation}\label{XXX} must be on the same line.
+  Note that `\begin{equation}\label{XXX}` must be on the same line.
+- Include the `mytooltip.sty` and `biblio.sty` packages in your LaTeX file.
+  ```latex
+  \usepackage{biblio}
+  \usepackage{mytooltip}
+  ```
+- With the package `biblio.sty`, use
+  ```latex
+  \addbibresource{YOUR_BIB_FILE_NAME.bib}
+  ```
+  in preambule, and
+  ```latex
+  \printbibliography
+  ```
+  where you want the bibliography to be printed.
