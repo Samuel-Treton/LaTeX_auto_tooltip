@@ -75,6 +75,6 @@ Examples in images:
   ```
   gives
   
-  <br/>
+  &nbsp;
   
   ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/eqref_demo.png)
