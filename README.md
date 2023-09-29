@@ -74,4 +74,4 @@ Examples in images:
   The ref \eqref{EqFacile}.
   ```
   gives
-  ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/auto_tooltip_demo.gif)
+  ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/eqref_demo.png)
