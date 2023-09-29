@@ -6,6 +6,10 @@
 
 ![demo](https://github.com/Samuel-Treton/LaTeX_auto_tooltip/blob/main/auto_tooltip_demo.gif)
 
+## Compatibility
+
+**Note: This feature is currently only supported in Adobe Reader and may not work on other PDF viewers.**
+
 ## Features
 
 - Pop-up display for LaTeX equations
